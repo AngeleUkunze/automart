@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body{
+font-family:tahoma;
+font-size:20px;
+}
+.n{opacity: 0.2; filter: alpha(opacity=20); position:fixed;}
+
+ul{
+list-style:none;
+margin:0px;
+padding:0px;
+}
+
+ul li{
+float:left;
+width:200px;
+height:50px;
+line-height:50px;
+opacity:.9;
+}
+
+a{
+text-decoration:none;
+color:black;
+text-shadow:1px 1px blue;
+font-size:40px;
+}
+ul li ul li{
+display:none;
+}
+ul li a:hover{
+background-color:chocolate;}
+
+ul li:hover ul li{display:block;}
+
+img:hover{background-color:lime;}
+#i{width:300px; height:250px; border:4px double #008B8B;}
+
+#t{background:url('sc.jpg')no-repeat;}
+
+img:hover{opacity: 0.5; filter: alpha(opacity=50);}
+
+
+</style>
+</head>
+<body>
+<div style="align:center; margin-left:300px; position:fixed; border:10px double #008B8B;">
+<ul>
+<li><a href="index.html">Menu</a></li>
+<li><a href="welcome.html">Home</a></li>
+<li><a href="About us.html">About Us</a></li>
+</ul>
+</div>
+<div style="border:7px solid #008B8B; padding:40px; box-shadow:6px 6px 6px black; text-shadow:0px 1px blue; color:black; background-color:#DCDCDC; text-align:justify; position:absolute; width:1100px; margin-left:100px; margin-top:100px;">
+<h2>We Constantly help you to have the field technologically to sell your cars where this website is very attractive to the customers to buy your cars .</h2>
+<p>We are normally produce awesome website to attract customers whom you will be willing to sell.</p>
+
+<p>We allow all the seller to post their cars which they wish to sell.</p>
+</div>
+
+<div style="float:left; margin:30px; color:black; text-shadow:2px 2px blue; margin-top:500px">
+<h1><center>Here are the posted cars to sell</center></h1>
+<a href="Form.html"><img src="car 1.jfif" id="i"></a>
+100,000,000rwf 
+<a href="Form.html"><img src="car 2.jfif" id="i"></a><br>
+1,000,000rwf
+<a href="Form.html"><img src="car 3.jfif" id="i"></a>
+2,000,000rwf
+<a href="Form.html"><img src="car 4.jfif" id="i"></a>
+130,000,000
+<a href="Form.html"><img src="car 8.jfif" id="i"></a>
+3,000,000
+<h1><center>If you wish you can post your to sell your product</center></h1>
+<form method="post" enctype="multipart/form-data" action="welcome.html">
+            <input type="file" name="fileToUpload" id="fileToUpload" size="35">
+            <br>
+            <br>
+            <input type="submit" value="Upload" name="upload">
+</form>
+</div>
+
+</body>
+</html>
